@@ -1,0 +1,22 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=9 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                    work                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                com_oper                                     DINT    0 "                                                               *"    0    4    1   10    1    0 e,0,NONE
+
+                                Engine_0                                   Engine    0 "                                                               *"    0   24    1    0    1    1         
+                                   ready                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   local                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  remote                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               alarm_stop_button_pressed                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              time2Start                                     UINT    0 "                                                              10"    1    6    1   10    0    0         
+                               time2Stop                                     UINT    0 "                                                              10"    1    6    1   10    0    0         
+                                com_oper                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                   error                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,NOER
+
+                                    work                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                 counter                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                                   start                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    stop                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   state                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,STOP
+

@@ -1,0 +1,74 @@
+
+
+Mon Oct 25 17:48:00 2021
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Mon Oct 25 17:48:00 2021
+COMMAND_COLDSTART
+InstanceName : 01d7c9af4e6f5d60
+
+WorkingPath :
+D:\ASprojects\kursich\Temp\Simulation\Config1\PC\
+
+
+
+Mon Oct 25 17:48:00 2021
+COMMAND_COLDSTART
+Version : D4.26
+
+
+
+Mon Oct 25 17:48:04 2021
+COMMAND_TERMINATE
+
+
+Mon Oct 25 17:48:04 2021
+
+
+Mon Oct 25 17:48:04 2021
+COMMAND_COLDSTART
+Version : D4.26
+
+
+
+Mon Oct 25 17:58:11 2021
+COMMAND_TERMINATE
+
+
+Mon Oct 25 17:58:11 2021
+
+
+Mon Oct 25 17:58:12 2021
+COMMAND_COLDSTART
+Version : D4.26
+
+
+
+Mon Oct 25 17:58:14 2021
+COMMAND_TERMINATE
+
+
+Mon Oct 25 17:58:14 2021
+
+
+Mon Oct 25 17:58:14 2021
+COMMAND_COLDSTART
+Version : D4.26
+
+
+
+Mon Oct 25 18:00:19 2021
+COMMAND_TERMINATE
+
+
+Mon Oct 25 18:00:20 2021
+
+
+Mon Oct 25 18:00:20 2021
+COMMAND_TERMINATE
+
+
+Mon Oct 25 18:00:21 2021

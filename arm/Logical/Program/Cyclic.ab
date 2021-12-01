@@ -1,0 +1,67 @@
+
+PROGRAM _CYCLIC
+	IF Visu_applyBtn = TRUE THEN
+		platformMinAngle = REAL(Visu_PlatformMinAngle)
+		platformMaxAngle = REAL(Visu_PlatformMaxAngle)
+		shoulderMinAngle = REAL(Visu_ShoulderMinAngle)
+		shoulderMaxAngle = REAL(Visu_ShoulderMaxAngle)
+		localTranslateXnew = REAL(Visu_RobotTranslateX)
+		localTranslateYnew = REAL(Visu_RobotTranslateY)
+		localTranslateZnew = REAL(Visu_RobotTranslateZ)
+		Q_PositionAnimator_0.enabled = FALSE
+		Q_PositionAnimator_0 FUB Q_PositionAnimator()
+		animationStep = 0
+		Visu_applyBtn = FALSE
+	ENDIF
+	Q_PositionAnimator_0.enabled = TRUE
+	SELECT animationStep
+		STATE Q0Rotation
+			Q_PositionAnimator_0.startPosition = platformMinAngle
+			Q_PositionAnimator_0.endPosition = platformMaxAngle
+			Q_PositionAnimator_0 FUB Q_PositionAnimator()
+			robotManipulator.Position[0] = Q_PositionAnimator_0.position
+			WHEN Q_PositionAnimator_0.status = ANIMATION_END
+				NEXT Q1Rotation
+		STATE Q1Rotation
+			Q_PositionAnimator_0.startPosition = shoulderMinAngle
+			Q_PositionAnimator_0.endPosition = shoulderMaxAngle
+			Q_PositionAnimator_0 FUB Q_PositionAnimator()
+			robotManipulator.Position[1] = Q_PositionAnimator_0.position
+			WHEN Q_PositionAnimator_0.status = ANIMATION_END
+				Q_PositionAnimator_0.velocity = 10
+				tempReverse = reverse
+				reverse = FALSE
+				NEXT QX
+		STATE QX
+			Q_PositionAnimator_0.startPosition = localTranslateXold
+			Q_PositionAnimator_0.endPosition = localTranslateXnew
+			Q_PositionAnimator_0 FUB Q_PositionAnimator()
+			robotManipulator.RobotTranslateX = Q_PositionAnimator_0.position
+			WHEN Q_PositionAnimator_0.status = ANIMATION_END
+				localTranslateXold = localTranslateXnew
+				NEXT QY
+		STATE QY
+			Q_PositionAnimator_0.startPosition = localTranslateYold
+			Q_PositionAnimator_0.endPosition = localTranslateYnew
+			Q_PositionAnimator_0 FUB Q_PositionAnimator()
+			robotManipulator.RobotTranslateY = Q_PositionAnimator_0.position
+			WHEN Q_PositionAnimator_0.status = ANIMATION_END
+				localTranslateYold = localTranslateYnew
+				NEXT QZ
+		STATE QZ
+			Q_PositionAnimator_0.startPosition = localTranslateZold
+			Q_PositionAnimator_0.endPosition = localTranslateZnew
+			Q_PositionAnimator_0 FUB Q_PositionAnimator()
+			robotManipulator.RobotTranslateZ = Q_PositionAnimator_0.position
+			WHEN Q_PositionAnimator_0.status = ANIMATION_END
+				localTranslateZold = localTranslateZnew
+				Q_PositionAnimator_0.velocity = 1
+				reverse = tempReverse
+				NEXT ReverseAnimation
+		STATE ReverseAnimation 
+			reverse = NOT reverse
+			Q_PositionAnimator_0.reverse = reverse
+			WHEN TRUE
+				NEXT Q0Rotation
+	ENDSELECT
+END_PROGRAM

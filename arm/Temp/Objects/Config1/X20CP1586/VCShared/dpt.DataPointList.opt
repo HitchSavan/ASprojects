@@ -1,0 +1,9 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/ASprojects/arm/Physical/Config1/X20CP1586/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Program" Source="Program.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

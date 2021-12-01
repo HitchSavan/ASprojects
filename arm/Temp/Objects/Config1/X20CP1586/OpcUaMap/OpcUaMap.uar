@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaConfig FileVersion="3">
+  <DefaultView>
+    <Module>
+      <Task Name="Program">
+        <Variable Name="animationStep" />
+        <Variable Name="platformMaxAngle" />
+        <Variable Name="platformMinAngle" />
+        <Variable Name="Q_PositionAnimator_0" />
+        <Variable Name="reverse" />
+        <Variable Name="robotManipulator">
+          <Variable Name="RobotTranslateX" />
+          <Variable Name="Position">
+            <Variable Name="Position[0]" />
+            <Variable Name="Position[1]" />
+            <Variable Name="Position[2]" />
+            <Variable Name="Position[3]" />
+            <Variable Name="Position[4]" />
+            <Variable Name="Position[5]" />
+            <Variable Name="Position[6]" />
+          </Variable>
+          <Variable Name="RobotTranslateY" />
+          <Variable Name="RobotTranslateZ" />
+        </Variable>
+        <Variable Name="shoulderMaxAngle" />
+        <Variable Name="shoulderMinAngle" />
+        <Variable Name="Visu_applyBtn" />
+        <Variable Name="Visu_PlatformMaxAngle" />
+        <Variable Name="Visu_PlatformMinAngle" />
+        <Variable Name="Visu_RobotTranslateX" />
+        <Variable Name="Visu_RobotTranslateY" />
+        <Variable Name="Visu_RobotTranslateZ" />
+        <Variable Name="Visu_ShoulderMaxAngle" />
+        <Variable Name="Visu_ShoulderMinAngle" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaConfig>

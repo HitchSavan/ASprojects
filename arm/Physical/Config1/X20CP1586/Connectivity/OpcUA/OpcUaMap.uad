@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="3">
+  <DefaultView>
+    <Module>
+      <Task Name="Program">
+        <Variable Name="animationStep" Enable="True" />
+        <Variable Name="platformMaxAngle" Enable="True" />
+        <Variable Name="platformMinAngle" Enable="True" />
+        <Variable Name="Q_PositionAnimator_0" Enable="True" />
+        <Variable Name="reverse" Enable="True" />
+        <Variable Name="robotManipulator" Enable="True">
+          <Variable Name="RobotTranslateX" Enable="True" />
+          <Variable Name="Position" Enable="True" EnableArrayElements="True" />
+          <Variable Name="RobotTranslateY" Enable="True" />
+          <Variable Name="RobotTranslateZ" Enable="True" />
+        </Variable>
+        <Variable Name="shoulderMaxAngle" Enable="True" />
+        <Variable Name="shoulderMinAngle" Enable="True" />
+        <Variable Name="Visu_applyBtn" Enable="True" />
+        <Variable Name="Visu_PlatformMaxAngle" Enable="True" />
+        <Variable Name="Visu_PlatformMinAngle" Enable="True" />
+        <Variable Name="Visu_RobotTranslateX" Enable="True" />
+        <Variable Name="Visu_RobotTranslateY" Enable="True" />
+        <Variable Name="Visu_RobotTranslateZ" Enable="True" />
+        <Variable Name="Visu_ShoulderMaxAngle" Enable="True" />
+        <Variable Name="Visu_ShoulderMinAngle" Enable="True" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

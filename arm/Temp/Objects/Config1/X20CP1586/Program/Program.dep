@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/robot/robot.fun
+$(AS_PROJECT_PATH)/Logical/Program/Variables.var
+$(AS_PROJECT_PATH)/Logical/Program/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/robot/Constants.var

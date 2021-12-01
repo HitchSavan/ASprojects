@@ -1,0 +1,20 @@
+<TransferModuleBuilderFileList>
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\OpcUaMap" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\Program" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\Role" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\SYSROM\TCData" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\User" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\Visu" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\Visu01" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\Visu02" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\Visu03" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\SYSROM\arconfig" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\arial" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\arialbd" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\SYSROM\asfw" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\SYSROM\ashwd" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\iomap" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\robot" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\SYSROM\$$sysconf" PartOfFixToc="0" />
+<FileEntry Path="D:\ASprojects\arm\Temp\Transfer\Config1\X20CP1586\FilesToTransfer\Data0\USERROM\vcshared" PartOfFixToc="0" />
+</TransferModuleBuilderFileList>

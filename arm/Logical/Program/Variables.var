@@ -1,0 +1,29 @@
+VAR
+	shoulderMinAngle : REAL := 0;
+	shoulderMaxAngle : REAL := 0.0;
+	robotManipulator : RobotManipulator;
+	reverse : BOOL := FALSE;
+END_VAR
+VAR RETAIN
+	Q_PositionAnimator_0 : Q_PositionAnimator;
+END_VAR
+VAR
+	platformMinAngle : REAL := -90;
+	platformMaxAngle : REAL := 90;
+	animationStep : INT;
+	Visu_RobotTranslateZ : INT;
+	Visu_RobotTranslateY : INT;
+	Visu_PlatformMinAngle : INT;
+	Visu_PlatformMaxAngle : INT;
+	Visu_ShoulderMinAngle : INT;
+	Visu_ShoulderMaxAngle : INT;
+	Visu_applyBtn : BOOL := FALSE;
+	Visu_RobotTranslateX : INT;
+	localTranslateXnew : REAL;
+	localTranslateYnew : REAL;
+	localTranslateZnew : REAL;
+	localTranslateXold : REAL := 0;
+	localTranslateYold : REAL := 0;
+	localTranslateZold : REAL := 0;
+	tempReverse : BOOL;
+END_VAR

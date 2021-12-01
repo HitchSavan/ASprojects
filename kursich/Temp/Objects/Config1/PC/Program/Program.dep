@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Library_C/Library_C.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Library_C/Types.typ
+$(AS_PROJECT_PATH)/Logical/Program/Variables.var

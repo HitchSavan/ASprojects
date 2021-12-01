@@ -1,0 +1,45 @@
+
+(* TODO: Add your comment here *)
+FUNCTION_BLOCK Q_PositionAnimator
+	IF enabled = TRUE THEN
+		IF status <> ANIMATING THEN
+			IF reverse = FALSE THEN
+				position = startPosition
+			ELSE
+				position = endPosition
+			ENDIF
+			status = ANIMATING
+		ENDIF
+		IF startPosition = endPosition THEN
+			status = ANIMATION_END
+		ELSE
+			IF reverse = FALSE THEN
+				IF (startPosition - endPosition) < 0 THEN
+					position = position + velocity
+					IF position = endPosition THEN
+						status = ANIMATION_END
+					ENDIF
+				ELSE
+					position = position - velocity
+					IF position = endPosition THEN
+						status = ANIMATION_END
+					ENDIF
+				ENDIF
+			ELSE
+				IF (startPosition - endPosition) > 0 THEN
+					position = position + velocity
+					IF position = startPosition THEN
+						status = ANIMATION_END
+					ENDIF
+				ELSE
+					position = position - velocity
+					IF position = startPosition THEN
+						status = ANIMATION_END
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ELSE
+		status = ANIMATION_END 
+	ENDIF
+END_FUNCTION_BLOCK

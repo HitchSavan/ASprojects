@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.10.53 SP"?>
+<DataSource xmlns="http://br-automation.co.at/AS/VC/Project" Name="DataSource">
+  <Property Name="AutoRefresh" Value="False"/>
+  <Property Name="DefaultUpdateTime" Value="200"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="IsIntern" Value="False"/>
+  <Property Name="TextGroup" Value="None"/>
+  <DataPoints>
+    <Folder Name="Program">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Program"/>
+      <DataPoint Name="Visu_RobotTranslateY">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+      <DataPoint Name="Visu_ShoulderMinAngle">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+      <DataPoint Name="Visu_applyBtn">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+      <DataPoint Name="Visu_RobotTranslateX">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+      <DataPoint Name="Visu_ShoulderMaxAngle">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+      <DataPoint Name="Visu_PlatformMinAngle">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+      <DataPoint Name="Visu_RobotTranslateZ">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+      <DataPoint Name="Visu_PlatformMaxAngle">
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+        <Property Name="ConnectingVisus" Value="Visu"/>
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+      </DataPoint>
+    </Folder>
+  </DataPoints>
+</DataSource>

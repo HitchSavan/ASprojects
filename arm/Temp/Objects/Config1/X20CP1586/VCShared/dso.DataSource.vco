@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">8</UInt32>
+          <UInt32 Name="ImageSize">15</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="Program:Visu_RobotTranslateY">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="Program:Visu_ShoulderMinAngle">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">2</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">29</Int32>
+            </Group>
+            <Group Name="Program:Visu_applyBtn">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">4</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">59</Int32>
+            </Group>
+            <Group Name="Program:Visu_RobotTranslateX">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">5</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">81</Int32>
+            </Group>
+            <Group Name="Program:Visu_ShoulderMaxAngle">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">7</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">110</Int32>
+            </Group>
+            <Group Name="Program:Visu_PlatformMinAngle">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">9</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">140</Int32>
+            </Group>
+            <Group Name="Program:Visu_RobotTranslateZ">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">11</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">170</Int32>
+            </Group>
+            <Group Name="Program:Visu_PlatformMaxAngle">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">13</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">199</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">UHJvZ3JhbTpWaXN1X1JvYm90VHJhbnNsYXRlWQBQcm9ncmFtOlZpc3VfU2hvdWxkZXJNaW5BbmdsZQBQcm9ncmFtOlZpc3VfYXBwbHlCdG4AUHJvZ3JhbTpWaXN1X1JvYm90VHJhbnNsYXRlWABQcm9ncmFtOlZpc3VfU2hvdWxkZXJNYXhBbmdsZQBQcm9ncmFtOlZpc3VfUGxhdGZvcm1NaW5BbmdsZQBQcm9ncmFtOlZpc3VfUm9ib3RUcmFuc2xhdGVaAFByb2dyYW06VmlzdV9QbGF0Zm9ybU1heEFuZ2xlAA==</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>
