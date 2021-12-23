@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20211028124137_
-#define _LIBRARIES_20211028124137_
+#ifndef _LIBRARIES_20211223044636_
+#define _LIBRARIES_20211223044636_
 
 __asm__(".section \".plc\"");
 
@@ -461,11 +461,13 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library_C/Constants.var\\\" scop
 	__asm__(".ascii\"plcexport \\\"WSTRING_TO_STRING\\\" FUN\\n\"");
 #endif
 #ifdef _LIBRARY_C_EXPORT
+	__asm__(".ascii\"plcexport \\\"Valve\\\" FUB\\n\"");
 	__asm__(".ascii\"plcexport \\\"Engine\\\" FUB\\n\"");
+	__asm__(".ascii\"plcexport \\\"Solval\\\" FUB\\n\"");
 #endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20211028124137_ */
+#endif /* _LIBRARIES_20211223044636_ */
 

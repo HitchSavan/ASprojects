@@ -1,3 +1,28 @@
 VAR
-	Engine_0 : Engine;
+	com_oper : Com_operStates := NONE;
+	CP1 : Engine;
+	FAN : Engine;
+	DP2 : Engine;
+	DP1 : Engine;
+	FV1 : Solval;
+	MV1 : Valve;
+	Level_LL : BOOL;
+	Level_L : BOOL;
+	RH_LowLimit : INT := 625;
+	RH_HighLimit : INT := 630;
+	PH_WorkLimit : INT := 8;
+	PH_LowLimit : INT := 8;
+	Level_H : BOOL;
+	Level_HH : BOOL;
+	P_HH : BOOL;
+	P_LL : BOOL;
+	FlowIndic : BOOL;
+	RH : INT;
+	PH : INT;
+	maxWashTimeCP1 : UINT := 10;
+	maxFeedTimeDP2 : UINT := 10;
+	maxOneTimeFeedDP2 : UINT := 10;
+	maxOneTimeFeedDP1 : UINT := 10;
+	maxFeedTimeDP4 : UINT := 10;
+	maxFeedTimeDP1 : UINT := 10;
 END_VAR

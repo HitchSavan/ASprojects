@@ -22,7 +22,7 @@
     Path="D:\ASprojects\kursich\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="132786753467361895" />
+    LastWriteTime="132845817014258774" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Libraries\operator\Binary.lby"
     LogicalPath="Libraries.operator"
@@ -119,12 +119,12 @@
     Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\ANSIC.lby"
     LogicalPath="Libraries.Library_C"
     Type="Library"
-    LastWriteTime="132786770986549522" />
+    LastWriteTime="132845827036922431" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Types.typ"
     LogicalPath="Libraries.Library_C.Types.typ"
     Type="File"
-    LastWriteTime="132786857463351138"
+    LastWriteTime="132845934725593511"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Constants.var"
@@ -136,13 +136,25 @@
     Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Library_C.fun"
     LogicalPath="Libraries.Library_C.Library_C.fun"
     Type="File"
-    LastWriteTime="132798874892859505"
+    LastWriteTime="132846967597912132"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Engine.c"
     LogicalPath="Libraries.Library_C.Engine.c"
     Type="File"
-    LastWriteTime="132798870353276404"
+    LastWriteTime="132845962411198434"
+    Private="false" />
+  <Object
+    Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Valve.c"
+    LogicalPath="Libraries.Library_C.Valve.c"
+    Type="File"
+    LastWriteTime="132845910937865147"
+    Private="false" />
+  <Object
+    Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Solval.c"
+    LogicalPath="Libraries.Library_C.Solval.c"
+    Type="File"
+    LastWriteTime="132845885019526817"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Program\ANSIC.prg"
@@ -153,7 +165,7 @@
     Path="D:\ASprojects\kursich\Logical\Program\Main.c"
     LogicalPath="Program.Main.c"
     Type="File"
-    LastWriteTime="132798876937026722"
+    LastWriteTime="132846969752474568"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Program\Types.typ"
@@ -165,7 +177,7 @@
     Path="D:\ASprojects\kursich\Logical\Program\Variables.var"
     LogicalPath="Program.Variables.var"
     Type="File"
-    LastWriteTime="132798875894177467"
+    LastWriteTime="132845976304055421"
     Private="true" />
   <Object
     Path="D:\ASprojects\kursich\Physical\Config1\Config.pkg"
@@ -193,7 +205,7 @@
     Path="D:\ASprojects\kursich\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"
     Type="File"
-    LastWriteTime="132796460461802134"
+    LastWriteTime="132845817015795219"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Physical\Config1\PC\Cpu.per"

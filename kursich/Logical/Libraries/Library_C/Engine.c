@@ -11,15 +11,18 @@
 
 void Engine(struct Engine* inst)
 {
+	
+	inst->stop = !inst->start;
 	switch (inst->state) {
 		case STOPPED: {
+			inst->workTime = 0;
+			inst->counter = 0;
 			if(inst->work == 1) {
 				inst->state = STARTED;
 				break;
 			}
 			if((inst->com_oper == START) && (inst->ready)) {
 				inst->error = NOERROR;
-				inst->start = 1;
 				inst->work = 1;
 				inst->counter = 0;
 				inst->com_oper = NONE;
@@ -29,13 +32,14 @@ void Engine(struct Engine* inst)
 		}
 
 		case STARTED: {
+			inst->workTime += 1;
+			inst->counter = 0;
 			if(inst->work == 0) {
 				inst->state = STOPPED;
 				break;
 			}
 			if(inst->com_oper == STOP) {
 				inst->error = NOERROR;
-				inst->stop = 1;
 				inst->work = 0;
 				inst->counter = 0;
 				inst->com_oper = NONE;

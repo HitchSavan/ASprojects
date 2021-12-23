@@ -1,2 +1,2 @@
-Library_C	"$(AS_CPU_PATH)/Library_C/Engine.c.o"  -o "$(AS_CPU_PATH)/Library_C/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x
+Library_C	"$(AS_CPU_PATH)/Library_C/Engine.c.o" "$(AS_CPU_PATH)/Library_C/Valve.c.o" "$(AS_CPU_PATH)/Library_C/Solval.c.o"  -o "$(AS_CPU_PATH)/Library_C/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x
 Program	"$(AS_CPU_PATH)/Program/Main.c.o"  -o "$(AS_CPU_PATH)/Program/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x

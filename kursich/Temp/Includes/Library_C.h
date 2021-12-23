@@ -23,18 +23,54 @@ typedef enum ErrorStates
 	FAIL2STOP
 } ErrorStates;
 
-typedef enum StatusStates
-{	STOPPED,
-	STARTED,
-	TRY2START,
-	TRY2STOP
-} StatusStates;
-
 typedef enum Com_operStates
 {	NONE,
 	START,
 	STOP
 } Com_operStates;
+
+typedef enum EngineStatusStates
+{	STOPPED,
+	STARTED,
+	TRY2START,
+	TRY2STOP
+} EngineStatusStates;
+
+typedef enum ValveStatusStates
+{	OPENED,
+	CLOSED,
+	OPENING,
+	CLOSING,
+	TRY2CLOSE,
+	TRY2OPEN
+} ValveStatusStates;
+
+typedef struct Valve
+{
+	/* VAR_OUTPUT (analog) */
+	enum ErrorStates error;
+	/* VAR_IN_OUT (analog and digital) */
+	enum Com_operStates* com_oper;
+	/* VAR (analog) */
+	enum ValveStatusStates state;
+	unsigned short counter;
+	unsigned short time2Open;
+	unsigned short time2Close;
+	/* VAR_INPUT (digital) */
+	plcbit ESD_stop;
+	plcbit remote;
+	plcbit local;
+	plcbit CCMCCW;
+	plcbit CCMCW;
+	/* VAR_OUTPUT (digital) */
+	plcbit closing;
+	plcbit opening;
+	plcbit open;
+	plcbit ready;
+	plcbit termalTrip;
+	plcbit torqueTrip;
+	plcbit stop;
+} Valve_typ;
 
 typedef struct Engine
 {
@@ -43,12 +79,13 @@ typedef struct Engine
 	unsigned short time2Stop;
 	/* VAR_OUTPUT (analog) */
 	enum ErrorStates error;
+	unsigned short workTime;
 	/* VAR_IN_OUT (analog and digital) */
 	enum Com_operStates* com_oper;
 	plcbit* work;
 	/* VAR (analog) */
 	unsigned char counter;
-	enum StatusStates state;
+	enum EngineStatusStates state;
 	/* VAR_INPUT (digital) */
 	plcbit ready;
 	plcbit local;
@@ -59,10 +96,30 @@ typedef struct Engine
 	plcbit stop;
 } Engine_typ;
 
+typedef struct Solval
+{
+	/* VAR_OUTPUT (analog) */
+	enum ErrorStates error;
+	/* VAR_IN_OUT (analog and digital) */
+	enum Com_operStates* com_oper;
+	/* VAR (analog) */
+	enum ValveStatusStates state;
+	/* VAR_INPUT (digital) */
+	plcbit ESD_stop;
+	plcbit remote;
+	plcbit local;
+	/* VAR_OUTPUT (digital) */
+	plcbit opened;
+	plcbit ready;
+	plcbit openClose;
+} Solval_typ;
+
 
 
 /* Prototyping of functions and function blocks */
+_BUR_PUBLIC void Valve(struct Valve* inst);
 _BUR_PUBLIC void Engine(struct Engine* inst);
+_BUR_PUBLIC void Solval(struct Solval* inst);
 
 
 #ifdef __cplusplus

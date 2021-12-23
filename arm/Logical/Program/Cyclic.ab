@@ -29,8 +29,8 @@ PROGRAM _CYCLIC
 			robotManipulator.Position[1] = Q_PositionAnimator_0.position
 			WHEN Q_PositionAnimator_0.status = ANIMATION_END
 				Q_PositionAnimator_0.velocity = 10
-				tempReverse = reverse
-				reverse = FALSE
+				tempReverse = Q_PositionAnimator_0.reverse
+				Q_PositionAnimator_0.reverse = FALSE
 				NEXT QX
 		STATE QX
 			Q_PositionAnimator_0.startPosition = localTranslateXold
@@ -56,7 +56,7 @@ PROGRAM _CYCLIC
 			WHEN Q_PositionAnimator_0.status = ANIMATION_END
 				localTranslateZold = localTranslateZnew
 				Q_PositionAnimator_0.velocity = 1
-				reverse = tempReverse
+				Q_PositionAnimator_0.reverse = tempReverse
 				NEXT ReverseAnimation
 		STATE ReverseAnimation 
 			reverse = NOT reverse

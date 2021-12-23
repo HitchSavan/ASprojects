@@ -8,23 +8,58 @@
 void _INIT ProgramInit(void)
 {
 	
-	Engine_0.ready = 1;
-	Engine_0.local = 0;
-	Engine_0.remote = 0;
-	Engine_0.alarm_stop_button_pressed = 0;
-	Engine_0.time2Start = 10;
-	Engine_0.time2Stop = 10;
-	Engine_0.com_oper = 0;
-	Engine_0.work = 0;
-
 }
 
 void _CYCLIC ProgramCyclic(void)
 {
-	Engine(&Engine_0);
-	
+	Engine(&FAN);
+	Engine(&CP1);
+	Engine(&DP1);
+	Engine(&DP2);
+	Solval(&FV1);
+	Valve(&MV1);
+	if(FAN.work && FlowIndic) {
+		if(Level_H && Level_LL && Level_L) {
+			if(P_HH == 0) {
+				CP1.com_oper = 1;
+			}
+			if(CP1.work) {
+				if(PH <= PH_LowLimit) {
+					DP1.com_oper = 1;
+				}
+				if(RH > RH_HighLimit) {
+					DP2.com_oper = 1;
+				}
+			}
+			if((CP1.workTime >= maxWashTimeCP1) || (DP1.workTime >= maxFeedTimeDP1) || (DP2.workTime >= maxFeedTimeDP2)) {
+				MV1.com_oper = 1;
+			}
+		} else {
+			if(!(MV1.open)) {
+				FV1.com_oper = 1;
+			}
+		}
+	} else {
+		if(!(Level_H && Level_LL && Level_L)) {
+			if(P_LL && P_HH) {
+				CP1.com_oper = 2;
+			}
+			if(!(CP1.work)) {
+				if((PH > PH_WorkLimit) && (DP1.workTime >= maxOneTimeFeedDP1)) {
+					DP1.com_oper = 2;
+				}
+				if((RH > RH_LowLimit) && (DP2.workTime >= maxOneTimeFeedDP2)) {
+					DP2.com_oper = 2;
+				}
+			}
+			MV1.com_oper = 2;
+		} else {
+			if(MV1.open) {
+				FV1.com_oper = 2;
+			}
+		}
+	}
 }
-
 void _EXIT ProgramExit(void)
 {
 	// Insert code here 

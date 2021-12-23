@@ -6,5 +6,7 @@
     <File Description="Exported constants">Constants.var</File>
     <File Description="Exported functions and function blocks">Library_C.fun</File>
     <File>Engine.c</File>
+    <File>Valve.c</File>
+    <File>Solval.c</File>
   </Files>
 </Library>

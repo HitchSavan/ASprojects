@@ -8,17 +8,26 @@ TYPE
 		FAIL2START,
 		FAIL2STOP
 		);
-	StatusStates : 
+	Com_operStates : 
+		(
+		NONE,
+		START,
+		STOP
+		);
+	EngineStatusStates : 
 		(
 		STOPPED,
 		STARTED,
 		TRY2START,
 		TRY2STOP
 		);
-	Com_operStates : 
+	ValveStatusStates : 
 		(
-		NONE,
-		START,
-		STOP
+		OPENED,
+		CLOSED,
+		OPENING,
+		CLOSING,
+		TRY2CLOSE,
+		TRY2OPEN
 		);
 END_TYPE

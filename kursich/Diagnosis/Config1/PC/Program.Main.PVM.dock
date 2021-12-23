@@ -1,22 +1,46 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=9 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                                    work                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
-                                com_oper                                     DINT    0 "                                                               *"    0    4    1   10    1    0 e,0,NONE
-
-                                Engine_0                                   Engine    0 "                                                               *"    0   24    1    0    1    1         
-                                   ready                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
-                                   local                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                  remote                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-               alarm_stop_button_pressed                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                              time2Start                                     UINT    0 "                                                              10"    1    6    1   10    0    0         
-                               time2Stop                                     UINT    0 "                                                              10"    1    6    1   10    0    0         
-                                com_oper                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
-                                   error                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,NOER
+                               FlowIndic                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                 Level_H                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                 Level_L                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                                Level_LL                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                                      PH                                      INT    0 "                                                               0"    0    3    1   10    1    0         
+                             PH_LowLimit                                      INT    0 "                                                               8"    0    3    1   10    1    0         
+                            PH_WorkLimit                                      INT    0 "                                                               8"    0    3    1   10    1    0         
+                                    P_HH                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                    P_LL                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                      RH                                      INT    0 "                                                               0"    0    3    1   10    1    0         
+                            RH_HighLimit                                      INT    0 "                                                             630"    0    3    1   10    1    0         
+                             RH_LowLimit                                      INT    0 "                                                             625"    0    3    1   10    1    0         
+                                     MV1                                    Valve    0 "                                                               *"    0   24    1    0    1    1         
+                                 closing                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 opening                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    open                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   state                                     DINT    0 "                                                               1"    1    4    1   10    0    0 e,0,OPEN
 
+                                     FV1                                   Solval    0 "                                                               *"    0   24    1    0    1    1         
+                                  opened                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   state                                     DINT    0 "                                                               1"    1    4    1   10    0    0 e,0,OPEN
+
+                                     FAN                                   Engine    0 "                                                               *"    0   24    1    0    1    1         
+                                com_oper                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
                                     work                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
-                                 counter                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
-                                   start                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                    stop                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
                                    state                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,STOP
 
+                                workTime                                     UINT    0 "                                                               1"    1    6    1   10    0    0         
+                                     DP2                                   Engine    0 "                                                               *"    0   24    1    0    1    1         
+                                    work                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                   state                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,STOP
+
+                                workTime                                     UINT    0 "                                                               1"    1    6    1   10    0    0         
+                                     DP1                                   Engine    0 "                                                               *"    0   24    1    0    1    1         
+                                    work                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
+                                   state                                     DINT    0 "                                                               1"    1    4    1   10    0    0 e,0,STOP
+
+                                workTime                                     UINT    0 "                                                             101"    1    6    1   10    0    0         
+                                     CP1                                   Engine    0 "                                                               *"    0   24    1    0    1    1         
+                                    work                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
+                                   state                                     DINT    0 "                                                               1"    1    4    1   10    0    0 e,0,STOP
+
+                                workTime                                     UINT    0 "                                                             102"    1    6    1   10    0    0         
