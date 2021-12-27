@@ -4,9 +4,9 @@
 	<ParID parid="81" val="60"/>
 	<ParID parid="82" val="1"/>
 	<ParID parid="90" val="0"/>
-	<ParID parid="100" val="0"/>
-	<ParID parid="101" val="-2500"/>
-	<ParID parid="102" val="1200"/>
+	<ParID parid="100" val="-250"/>
+	<ParID parid="101" val="-2020"/>
+	<ParID parid="102" val="610"/>
 	<ParID parid="103" val="0"/>
 	<ParID parid="104" val="1"/>
 	<ParID parid="105" val="0"/>
@@ -35,23 +35,23 @@
 		<ParID parid="150" val="FALSE"/>
 	</Object>
 	<Object objecttypeid="521" name="Comau NJ 60-2.2" visible="1" mask="" binding="#110*::Program:robotManipulator.Position[0]#111*::Program:robotManipulator.Position[1]#112*::Program:robotManipulator.Position[2]#113*::Program:robotManipulator.Position[3]#114*::Program:robotManipulator.Position[4]#115*::Program:robotManipulator.Position[5]#120*::Program:robotManipulator.RobotTranslateX#121*::Program:robotManipulator.RobotTranslateY#122*::Program:robotManipulator.RobotTranslateZ" jointoparent="0">
-		<ParID parid="100" val="41.7807"/>
+		<ParID parid="100" val="-123.346"/>
 		<ParID parid="101" val="0"/>
-		<ParID parid="102" val="50.1368"/>
+		<ParID parid="102" val="11.1855"/>
 		<ParID parid="103" val="0"/>
 		<ParID parid="104" val="0"/>
 		<ParID parid="105" val="0"/>
 		<ParID parid="110" val="0"/>
-		<ParID parid="111" val="-78.6665"/>
-		<ParID parid="112" val="115.556"/>
+		<ParID parid="111" val="-151.092"/>
+		<ParID parid="112" val="108.413"/>
 		<ParID parid="113" val="180"/>
-		<ParID parid="114" val="165.778"/>
+		<ParID parid="114" val="94.4949"/>
 		<ParID parid="115" val="180"/>
-		<ParID parid="120" val="0"/>
+		<ParID parid="120" val="1000"/>
 		<ParID parid="121" val="0"/>
 		<ParID parid="122" val="0"/>
 		<ParID parid="123" val="0"/>
-		<ParID parid="124" val="0"/>
+		<ParID parid="124" val="6"/>
 		<ParID parid="125" val="0"/>
 		<ParID parid="130" val="11: Red Metal Shine"/>
 		<ParID parid="150" val="FALSE"/>

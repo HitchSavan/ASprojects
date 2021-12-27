@@ -13,6 +13,9 @@
           <Variable Name="Position" Enable="True" EnableArrayElements="True" />
           <Variable Name="RobotTranslateY" Enable="True" />
           <Variable Name="RobotTranslateZ" Enable="True" />
+          <Variable Name="RobotTCPC" Enable="True" />
+          <Variable Name="RobotTCPB" Enable="True" />
+          <Variable Name="RobotTCPA" Enable="True" />
         </Variable>
         <Variable Name="shoulderMaxAngle" Enable="True" />
         <Variable Name="shoulderMinAngle" Enable="True" />

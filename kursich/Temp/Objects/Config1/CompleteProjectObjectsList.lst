@@ -5,7 +5,7 @@
     Path="D:\ASprojects\kursich\Logical\Package.pkg"
     LogicalPath=""
     Type="Package"
-    LastWriteTime="132796460445859394" />
+    LastWriteTime="132850015181117899" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -148,7 +148,7 @@
     Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Valve.c"
     LogicalPath="Libraries.Library_C.Valve.c"
     Type="File"
-    LastWriteTime="132845910937865147"
+    LastWriteTime="132847220160806596"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Libraries\Library_C\Solval.c"
@@ -165,20 +165,31 @@
     Path="D:\ASprojects\kursich\Logical\Program\Main.c"
     LogicalPath="Program.Main.c"
     Type="File"
-    LastWriteTime="132846969752474568"
+    LastWriteTime="132850125777371857"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Program\Types.typ"
     LogicalPath="Program.Types.typ"
     Type="File"
-    LastWriteTime="132798861813938945"
+    LastWriteTime="132847271602939333"
     Private="true" />
   <Object
     Path="D:\ASprojects\kursich\Logical\Program\Variables.var"
     LogicalPath="Program.Variables.var"
     Type="File"
-    LastWriteTime="132845976304055421"
+    LastWriteTime="132850126678377359"
     Private="true" />
+  <Object
+    Path="D:\ASprojects\kursich\Logical\Visu\Vc.dob"
+    LogicalPath="Visu"
+    Type="DataObject"
+    LastWriteTime="132850015180459648" />
+  <Object
+    Path="D:\ASprojects\kursich\Logical\Visu\VCObject.vc"
+    LogicalPath="Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="132850015180449685"
+    Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
@@ -188,7 +199,7 @@
     Path="D:\ASprojects\kursich\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="132786750898866127"
+    LastWriteTime="132850021639705391"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Physical\Config1\Hardware.hwl"
@@ -200,12 +211,12 @@
     Path="D:\ASprojects\kursich\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="132796467665624211" />
+    LastWriteTime="132850021635669975" />
   <Object
     Path="D:\ASprojects\kursich\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"
     Type="File"
-    LastWriteTime="132845817015795219"
+    LastWriteTime="132850015195045092"
     Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Physical\Config1\PC\Cpu.per"
@@ -312,6 +323,17 @@
     LogicalPath="Config1.PC.AccessAndSecurity.TransportLayerSecurity"
     Type="Package"
     LastWriteTime="132786750903594179" />
+  <Object
+    Path="D:\ASprojects\kursich\Physical\Config1\PC\VC\Package.pkg"
+    LogicalPath="Config1.PC.VC"
+    Type="Package"
+    LastWriteTime="132850021638199919" />
+  <Object
+    Path="D:\ASprojects\kursich\Physical\Config1\PC\VC\PS2-Keyboard.dis"
+    LogicalPath="Config1.PC.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="132850021638818275"
+    Private="false" />
   <Object
     Path="D:\ASprojects\kursich\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"

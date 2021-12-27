@@ -50,7 +50,7 @@ void Valve(struct Valve* inst)
 		
 		case TRY2OPEN: {
 				inst->counter += 1;
-				if((inst->open == 0) && (inst->counter > inst->time2Open)) {
+				if((inst->opening == 1) && (inst->counter > inst->time2Open)) {
 					inst->error = FAIL2START;
 					inst->CCMCCW = 0;
 					inst->opening = 0;
@@ -71,7 +71,7 @@ void Valve(struct Valve* inst)
 
 		case TRY2CLOSE: {
 				inst->counter += 1;
-				if((inst->open == 1) && (inst->counter > inst->time2Close)) {
+				if((inst->closing == 1) && (inst->counter > inst->time2Close)) {
 					inst->error = FAIL2STOP;
 					inst->CCMCW = 0;
 					inst->closing = 0;

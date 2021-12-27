@@ -1,5 +1,4 @@
 VAR
-	com_oper : Com_operStates := NONE;
 	CP1 : Engine;
 	FAN : Engine;
 	DP2 : Engine;
@@ -23,6 +22,19 @@ VAR
 	maxFeedTimeDP2 : UINT := 10;
 	maxOneTimeFeedDP2 : UINT := 10;
 	maxOneTimeFeedDP1 : UINT := 10;
-	maxFeedTimeDP4 : UINT := 10;
 	maxFeedTimeDP1 : UINT := 10;
+	TriggersError : BOOL := FALSE;
+	com_oper_G : Com_operStates_G := NONE_G;
+	visu_L : INT := 252;
+	visu_H : INT := 252;
+	visu_LL : INT := 252;
+	visu_HH : INT := 252;
+	visu_CP1 : INT := 252;
+	visu_FV1 : INT := 252;
+	visu_FAN : INT := 252;
+	visu_DP2 : INT := 252;
+	visu_DP1 : INT := 252;
+	visu_MV1 : INT := 252;
+	afterStart : INT := 10;
+	ERROR : INT := 252;
 END_VAR

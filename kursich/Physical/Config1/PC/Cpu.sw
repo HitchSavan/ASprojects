@@ -7,6 +7,9 @@
   <TaskClass Name="Cyclic#4">
     <Task Name="Program" Source="Program.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
+  <VcDataObjects>
+    <VcDataObject Name="Visu" Source="Visu.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
+  </VcDataObjects>
   <Libraries>
     <LibraryObject Name="Library_C" Source="Libraries.Library_C.lby" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </Libraries>

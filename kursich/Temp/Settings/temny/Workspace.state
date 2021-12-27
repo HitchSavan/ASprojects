@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.2.10.53 SP?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="D:\ASprojects\kursich\Logical\Program\Main.c" CaretLine="58" CaretColumn="4" FirstVisibleLine="36">
+  <TextEdit ID="D:\ASprojects\kursich\Logical\Program\Main.c" CaretLine="49" CaretColumn="20" FirstVisibleLine="39">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="D:\ASprojects\kursich\Logical\Libraries\Library_C\Engine.c" CaretLine="18" CaretColumn="4" FirstVisibleLine="1">
-    <Bookmarks />
-  </TextEdit>
-  <TreeView ID="D:\ASprojects\kursich\Logical\Program\Variables.var" EditColumn="6" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+  <TreeView ID="D:\ASprojects\kursich\Logical\Program\Variables.var" EditColumn="6" TopRow="2" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
       <Column Index="0" Width="200" Position="0" />
       <Column Index="1" Width="171" Position="1" />
@@ -23,7 +20,7 @@
     </Columns>
     <ExpandedNodes />
     <SelectedNodes>
-      <SelectedNode Row="9" />
+      <SelectedNode Row="37" />
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>

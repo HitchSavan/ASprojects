@@ -8,8 +8,9 @@ VAR RETAIN
 	Q_PositionAnimator_0 : Q_PositionAnimator;
 END_VAR
 VAR
-	platformMinAngle : REAL := -90;
-	platformMaxAngle : REAL := 90;
+	platformMinAngle : REAL := 0;
+	oneBigTrigger : BOOL := FALSE;
+	platformMaxAngle : REAL := 0;
 	animationStep : INT;
 	Visu_RobotTranslateZ : INT;
 	Visu_RobotTranslateY : INT;

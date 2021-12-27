@@ -1,3 +1,9 @@
-TYPE
 
+TYPE
+	AnimState : 
+		(
+		IDLE,
+		ANIMATING,
+		ANIMATION_END
+		);
 END_TYPE

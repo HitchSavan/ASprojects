@@ -17,6 +17,7 @@ $(AS_CPU_PATH)/sysconf.br \
 $(AS_CPU_PATH)/arconfig.br \
 $(AS_CPU_PATH)/Library_C.br \
 $(AS_CPU_PATH)/Program.br \
+$(AS_CPU_PATH)/Visu.br \
 $(AS_CPU_PATH)/iomap.br \
 $(AS_CPU_PATH)/Role.br \
 $(AS_CPU_PATH)/User.br \
@@ -34,6 +35,7 @@ include $(AS_CPU_PATH)/TCData/TCData.mak
 include $(AS_CPU_PATH)/User/User.mak
 include $(AS_CPU_PATH)/Role/Role.mak
 include $(AS_CPU_PATH)/iomap/iomap.mak
+include $(AS_CPU_PATH)/Visu/Visu.mak
 include $(AS_CPU_PATH)/Program/Program.mak
 include $(AS_CPU_PATH)/Library_C/Library_C.mak
 include $(AS_CPU_PATH)/arconfig/arconfig.mak

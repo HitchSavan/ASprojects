@@ -21,6 +21,9 @@
           </Variable>
           <Variable Name="RobotTranslateY" />
           <Variable Name="RobotTranslateZ" />
+          <Variable Name="RobotTCPC" />
+          <Variable Name="RobotTCPB" />
+          <Variable Name="RobotTCPA" />
         </Variable>
         <Variable Name="shoulderMaxAngle" />
         <Variable Name="shoulderMinAngle" />

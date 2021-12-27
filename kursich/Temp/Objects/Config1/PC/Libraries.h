@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20211223044636_
-#define _LIBRARIES_20211223044636_
+#ifndef _LIBRARIES_20211227115852_
+#define _LIBRARIES_20211227115852_
 
 __asm__(".section \".plc\"");
 
@@ -469,5 +469,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library_C/Constants.var\\\" scop
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20211223044636_ */
+#endif /* _LIBRARIES_20211227115852_ */
 

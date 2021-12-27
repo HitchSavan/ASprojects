@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1640223995_4_
-#define _BUR_1640223995_4_
+#ifndef _BUR_1640595531_4_
+#define _BUR_1640595531_4_
 
 #include <bur/plctypes.h>
 
@@ -13,8 +13,21 @@
 
 
 /* Variables */
+_BUR_LOCAL signed short ERROR;
+_BUR_LOCAL signed short afterStart;
+_BUR_LOCAL signed short visu_MV1;
+_BUR_LOCAL signed short visu_DP1;
+_BUR_LOCAL signed short visu_DP2;
+_BUR_LOCAL signed short visu_FAN;
+_BUR_LOCAL signed short visu_FV1;
+_BUR_LOCAL signed short visu_CP1;
+_BUR_LOCAL signed short visu_HH;
+_BUR_LOCAL signed short visu_LL;
+_BUR_LOCAL signed short visu_H;
+_BUR_LOCAL signed short visu_L;
+_BUR_LOCAL enum Com_operStates_G com_oper_G;
+_BUR_LOCAL plcbit TriggersError;
 _BUR_LOCAL unsigned short maxFeedTimeDP1;
-_BUR_LOCAL unsigned short maxFeedTimeDP4;
 _BUR_LOCAL unsigned short maxOneTimeFeedDP1;
 _BUR_LOCAL unsigned short maxOneTimeFeedDP2;
 _BUR_LOCAL unsigned short maxFeedTimeDP2;
@@ -38,7 +51,6 @@ _BUR_LOCAL struct Engine DP1;
 _BUR_LOCAL struct Engine DP2;
 _BUR_LOCAL struct Engine FAN;
 _BUR_LOCAL struct Engine CP1;
-_BUR_LOCAL enum Com_operStates com_oper;
 
 
 
@@ -55,5 +67,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library_C/Library_C.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _BUR_1640223995_4_ */
+#endif /* _BUR_1640595531_4_ */
 

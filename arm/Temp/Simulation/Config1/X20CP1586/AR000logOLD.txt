@@ -1,35 +1,35 @@
 
 
-Tue Dec 21 19:44:54 2021
+Sun Dec 26 21:25:49 2021
 No ARsim registration found!
   Bernecker & Rainer 
 
 
 
-Tue Dec 21 19:44:54 2021
+Sun Dec 26 21:25:49 2021
 COMMAND_COLDSTART
-InstanceName : 01d7f68a14a6e280
+InstanceName : 01d7fa8602059180
 
 WorkingPath :
 D:\ASprojects\arm\Temp\Simulation\Config1\X20CP1586\
 
 
 
-Tue Dec 21 19:44:54 2021
+Sun Dec 26 21:25:49 2021
 COMMAND_COLDSTART
 Version : D4.26
 
 
 
-Tue Dec 21 19:45:33 2021
+Sun Dec 26 21:27:05 2021
 COMMAND_TERMINATE
 
 
-Tue Dec 21 19:45:34 2021
+Sun Dec 26 21:27:06 2021
 
 
-Tue Dec 21 19:45:34 2021
+Sun Dec 26 21:27:06 2021
 COMMAND_TERMINATE
 
 
-Tue Dec 21 19:45:34 2021
+Sun Dec 26 21:27:06 2021

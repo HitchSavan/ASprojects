@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">24</UInt32>
+          <UInt32 Name="ImageSize">43</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="Program:DP1.workTime">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="Program:DP2.workTime">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">2</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">21</Int32>
+            </Group>
+            <Group Name="Program:FAN.com_oper">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">4</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">42</Int32>
+            </Group>
+            <Group Name="Program:CP1.workTime">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">8</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">63</Int32>
+            </Group>
+            <Group Name="Program:Level_HH">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">10</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">84</Int32>
+            </Group>
+            <Group Name="Program:Level_H">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">101</Int32>
+            </Group>
+            <Group Name="Program:Level_L">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">12</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">117</Int32>
+            </Group>
+            <Group Name="Program:Level_LL">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">13</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">133</Int32>
+            </Group>
+            <Group Name="Program:PH">
+              <UInt16 Name="ID">8</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">14</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">150</Int32>
+            </Group>
+            <Group Name="Program:RH">
+              <UInt16 Name="ID">9</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">16</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">161</Int32>
+            </Group>
+            <Group Name="Program:FlowIndic">
+              <UInt16 Name="ID">10</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">18</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">172</Int32>
+            </Group>
+            <Group Name="Program:P_LL">
+              <UInt16 Name="ID">11</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">19</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">190</Int32>
+            </Group>
+            <Group Name="Program:P_HH">
+              <UInt16 Name="ID">12</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">20</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">203</Int32>
+            </Group>
+            <Group Name="Program:visu_MV1">
+              <UInt16 Name="ID">13</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">21</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">216</Int32>
+            </Group>
+            <Group Name="Program:visu_DP2">
+              <UInt16 Name="ID">14</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">23</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">233</Int32>
+            </Group>
+            <Group Name="Program:visu_FAN">
+              <UInt16 Name="ID">15</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">25</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">250</Int32>
+            </Group>
+            <Group Name="Program:visu_FV1">
+              <UInt16 Name="ID">16</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">27</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">267</Int32>
+            </Group>
+            <Group Name="Program:visu_CP1">
+              <UInt16 Name="ID">17</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">29</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">284</Int32>
+            </Group>
+            <Group Name="Program:visu_HH">
+              <UInt16 Name="ID">18</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">31</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">301</Int32>
+            </Group>
+            <Group Name="Program:visu_LL">
+              <UInt16 Name="ID">19</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">33</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">317</Int32>
+            </Group>
+            <Group Name="Program:visu_H">
+              <UInt16 Name="ID">20</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">35</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">333</Int32>
+            </Group>
+            <Group Name="Program:visu_L">
+              <UInt16 Name="ID">21</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">37</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">348</Int32>
+            </Group>
+            <Group Name="Program:visu_DP1">
+              <UInt16 Name="ID">22</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">39</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">363</Int32>
+            </Group>
+            <Group Name="Program:ERROR">
+              <UInt16 Name="ID">23</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">41</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">380</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">UHJvZ3JhbTpEUDEud29ya1RpbWUAUHJvZ3JhbTpEUDIud29ya1RpbWUAUHJvZ3JhbTpGQU4uY29tX29wZXIAUHJvZ3JhbTpDUDEud29ya1RpbWUAUHJvZ3JhbTpMZXZlbF9ISABQcm9ncmFtOkxldmVsX0gAUHJvZ3JhbTpMZXZlbF9MAFByb2dyYW06TGV2ZWxfTEwAUHJvZ3JhbTpQSABQcm9ncmFtOlJIAFByb2dyYW06Rmxvd0luZGljAFByb2dyYW06UF9MTABQcm9ncmFtOlBfSEgAUHJvZ3JhbTp2aXN1X01WMQBQcm9ncmFtOnZpc3VfRFAyAFByb2dyYW06dmlzdV9GQU4AUHJvZ3JhbTp2aXN1X0ZWMQBQcm9ncmFtOnZpc3VfQ1AxAFByb2dyYW06dmlzdV9ISABQcm9ncmFtOnZpc3VfTEwAUHJvZ3JhbTp2aXN1X0gAUHJvZ3JhbTp2aXN1X0wAUHJvZ3JhbTp2aXN1X0RQMQBQcm9ncmFtOkVSUk9SAA==</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

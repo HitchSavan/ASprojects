@@ -33,6 +33,8 @@ PROGRAM _CYCLIC
 				Q_PositionAnimator_0.reverse = FALSE
 				NEXT QX
 		STATE QX
+			WHEN localTranslateXold = localTranslateXnew
+				NEXT QY
 			Q_PositionAnimator_0.startPosition = localTranslateXold
 			Q_PositionAnimator_0.endPosition = localTranslateXnew
 			Q_PositionAnimator_0 FUB Q_PositionAnimator()
@@ -41,6 +43,8 @@ PROGRAM _CYCLIC
 				localTranslateXold = localTranslateXnew
 				NEXT QY
 		STATE QY
+			WHEN localTranslateYold = localTranslateYnew
+				NEXT QZ
 			Q_PositionAnimator_0.startPosition = localTranslateYold
 			Q_PositionAnimator_0.endPosition = localTranslateYnew
 			Q_PositionAnimator_0 FUB Q_PositionAnimator()
@@ -49,6 +53,10 @@ PROGRAM _CYCLIC
 				localTranslateYold = localTranslateYnew
 				NEXT QZ
 		STATE QZ
+			WHEN localTranslateZold = localTranslateZnew
+				Q_PositionAnimator_0.velocity = 1
+				Q_PositionAnimator_0.reverse = tempReverse
+				NEXT ReverseAnimation
 			Q_PositionAnimator_0.startPosition = localTranslateZold
 			Q_PositionAnimator_0.endPosition = localTranslateZnew
 			Q_PositionAnimator_0 FUB Q_PositionAnimator()

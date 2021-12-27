@@ -1,2 +1,2 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/robot/robot.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/robot/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/robot/Types.typ
